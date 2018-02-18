@@ -26,7 +26,7 @@ COPY ej.sh .
 
 RUN chmod 700 ej.sh
 
-ENTRYPOINT ["sh","-c","./ej.sh"]
+#ENTRYPOINT ["sh","-c","./ej.sh"]
 
 
 
